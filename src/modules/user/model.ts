@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import pool from '../../config/db';
 import { User } from './interface';
 
@@ -20,7 +21,7 @@ class UserModel {
     // );
     // `;
 
-    const valuess = [user.name, user.email, user.password];
+    const values = [user.name, user.email, user.password];
 
     // 'INSERT INTO users (name, email, password) values ($1, $2, $3) returning *',
 
