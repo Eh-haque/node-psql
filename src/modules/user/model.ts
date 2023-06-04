@@ -20,7 +20,7 @@ class UserModel {
     // );
     // `;
 
-    const values = [user.name, user.email, user.password];
+    const valuess= [user.name, user.email, user.password];
 
     // 'INSERT INTO users (name, email, password) values ($1, $2, $3) returning *',
 
